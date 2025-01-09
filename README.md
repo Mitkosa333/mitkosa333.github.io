@@ -8,9 +8,6 @@ Welcome to my **Portfolio & Diary** repository! This is a personal space where I
 
 - [About the Project](#about-the-project)
 - [Features](#features)
-- [Structure](#structure)
-- [Getting Started](#getting-started)
-- [Contributions](#contributions)
 - [License](#license)
 
 ---
