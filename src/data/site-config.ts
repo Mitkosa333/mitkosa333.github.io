@@ -32,7 +32,6 @@ export type SiteConfig = {
     footerNavLinks?: Link[];
     socialLinks?: Link[];
     hero?: Hero;
-    subscribe?: Subscribe;
     postsPerPage?: number;
     projectsPerPage?: number;
 };
@@ -71,14 +70,6 @@ const siteConfig: SiteConfig = {
         {
             text: 'Contact',
             href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
     ],
     socialLinks: [
@@ -108,11 +99,6 @@ const siteConfig: SiteConfig = {
                 href: '/contact'
             }
         ]
-    },
-    subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        formUrl: '#'
     },
     postsPerPage: 8,
     projectsPerPage: 8
